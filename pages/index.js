@@ -1,14 +1,18 @@
 import Head from "next/head";
+import AppBody from "../components/AppBody";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Google </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>This is awsome</h1>
+      <Header />
+
+      <AppBody />
     </div>
   );
 }
