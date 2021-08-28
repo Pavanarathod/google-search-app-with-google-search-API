@@ -11,7 +11,7 @@ const Header = () => {
       <div className="flex space-x-4 items-center">
         <p className="fake__link">Gmail</p>
         <p className="fake__link">Images</p>
-        <ViewGridIcon className="h-7" />
+        <ViewGridIcon className="h-7 hover:bg-gray-200 rounded-full cursor-pointer" />
         <img
           src="/images/me.png
         "
