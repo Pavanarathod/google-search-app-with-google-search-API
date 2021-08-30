@@ -2,9 +2,9 @@ const SearchResults = ({ results }) => {
   return (
     <div className="space-y-4 mt-5 ">
       {results?.items.map((item) => (
-        <div key={item.link} className="group">
+        <div key={item.link} className="group truncate">
           <div>
-            <a href={item.link} className="text-gray-600">
+            <a href={item.link} className="text-gray-600 truncate">
               {item.formattedUrl}
             </a>
           </div>
